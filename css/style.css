@@ -11,7 +11,6 @@
 }
 
 
-
 #colorwheel {
     margin: 0px 25px;
     height: 250px;
@@ -20,16 +19,10 @@
 
 .smallwheel {
     margin-bottom: 75px;
-    
     height: 100px;   
     width: 100px;
-}
 
-
-.smallwheel {
-      animation-name: rotateOut;
-/*  Animation shorthand "animation, count, time, delay, function"
-  animation: flip 2 2s 2; */
+    animation-name: rotateOut;
   animation-iteration-count: 1;
   animation-delay: 5s;
   animation-timing-function: ease-in;
