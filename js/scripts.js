@@ -15,19 +15,16 @@ TweenMax.to($colorwheel, 4, {
 
 TweenLite.from('#v', 3, { 
   delay: 1,
-    left: 300,
   opacity: 0
   });
 
 TweenLite.from('#c', 3, { 
   delay: 2,
-    bottom: 300,
   opacity: 0
   });
 
 TweenLite.from('#d', 3, { 
   delay: 3,
-    right: 300,
   opacity: 0
   });
 
@@ -47,7 +44,7 @@ TweenMax.to($smallwheel, 4, {
 
     rotation: 1440,
    repeat: -1,
- ease: Power1.easeInOut
+// ease: Power1.easeInOut
     
     
 });
