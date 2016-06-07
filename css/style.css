@@ -1,19 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
 /* Stage */
 
 #stage {
-    background: gray;
+    background: none;
     height: 300px;
     width: 600px;
 }
 
 
 
-#star {
-    width: 100px;
-    height: 100px;
+#colorwheel {
+    margin: 0px 25px;
+    height: 300px;
+    width: 300px;
 }
 
+.smallwheel {
+    margin-bottom: 100px;
+    
+    height: 100px;   
+    width: 100px;
+}
 
+/*
+.text {
+    opacity: 0;
+}
+*/
 
 
 
