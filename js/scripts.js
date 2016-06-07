@@ -20,9 +20,8 @@ TweenMax.to($smallwheel, 6, {
 
     rotation: 1220,
    repeat: -1,
- ease: Power1.easeInOut
-    
-    
+ 
+
 });
 
 
