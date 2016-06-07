@@ -8,7 +8,8 @@ TweenMax.to($colorwheel, 4, {
 
 
 TweenLite.from('#text', 3, { 
-  delay: 3,
+  delay: 2,
+  ease: Circ.easeIn, y: 0,
   opacity: 0,
   
   });
@@ -21,7 +22,8 @@ TweenMax.to($smallwheel, 6, {
     rotation: 1220,
    repeat: -1,
  
-
+    
+    
 });
 
 
