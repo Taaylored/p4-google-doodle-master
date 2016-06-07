@@ -15,7 +15,8 @@ TweenMax.to($colorwheel, 4, {
 
 TweenLite.from('#v', 3, { 
   delay: 1,
-  opacity: 0
+  opacity: 0,
+  
   });
 
 TweenLite.from('#c', 3, { 
@@ -40,11 +41,13 @@ var $smallwheel = $('.smallwheel');
 
 
 // Dom Element, duration, properties to change
-TweenMax.to($smallwheel, 4, {
+TweenMax.to($smallwheel, 6, {
 
-    rotation: 1440,
+    rotation: 1220,
    repeat: -1,
-// ease: Power1.easeInOut
+ ease: Power1.easeInOut
     
     
 });
+
+

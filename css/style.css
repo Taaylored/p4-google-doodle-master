@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+<link rel="stylesheet" href="yourpath/magic.css">
+
 
 /* Stage */
 
@@ -29,7 +31,14 @@
 }
 */
 
-
+.smallwheel {
+      animation-name: rotateOut;
+/*  Animation shorthand "animation, count, time, delay, function"
+  animation: flip 2 2s 2; */
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+  animation-timing-function: ease-in;
+}
 
 /* DO NOT EDIT BELOW THIS LINE */
 
