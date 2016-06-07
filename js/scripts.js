@@ -7,7 +7,7 @@ TweenMax.to($colorwheel, 4, {
 });
 
 
-TweenLite.from('#text', 3, { 
+TweenLite.from('#text', 2.5, { 
   delay: 2,
   ease: Circ.easeIn, y: 0,
   opacity: 0,
