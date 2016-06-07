@@ -25,11 +25,6 @@
     width: 100px;
 }
 
-/*
-.text {
-    opacity: 0;
-}
-*/
 
 .smallwheel {
       animation-name: rotateOut;

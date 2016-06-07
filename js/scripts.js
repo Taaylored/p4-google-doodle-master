@@ -13,26 +13,13 @@ TweenMax.to($colorwheel, 4, {
 });
 
 
-TweenLite.from('#v', 3, { 
-  delay: 1,
+TweenLite.from('text', 3, { 
+  delay: 3,
   opacity: 0,
   
   });
 
-TweenLite.from('#c', 3, { 
-  delay: 2,
-  opacity: 0
-  });
 
-TweenLite.from('#d', 3, { 
-  delay: 3,
-  opacity: 0
-  });
-
-TweenLite.from('#day', 3, { 
-  delay: 4,
-  opacity: 0
-  });
 
 // Small wheels
 
