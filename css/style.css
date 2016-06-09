@@ -31,11 +31,179 @@
     height: auto;   
     width: 22%;
     
+/*
     animation-name: rotateOut;
   animation-iteration-count: 1;
   animation-delay: 4s;
     animation-timing-function: ease-in-out;
+*/
 }
+
+
+/*Left wheel slide animations*/
+
+.l1 {
+    
+    animation: zoomOutRight;
+    -webkit-animation-delay: .2s;
+    
+}
+
+.l2 {
+    
+    animation: zoomOutRight;
+    -webkit-animation-delay: .4s;
+    
+}
+
+.l3 {
+    
+    animation: zoomOutRight;
+     -webkit-animation-delay: .6s;
+    
+}
+
+.l4 {
+    
+    animation: zoomOutRight;
+    -webkit-animation-delay: .8s;
+    
+}
+
+.l5 {
+    
+    animation: zoomOutRight;
+   -webkit-animation-delay: 1s;
+    
+}
+
+.l6 {
+    
+    animation: zoomOutRight;
+      -webkit-animation-delay: 1.2s;
+}
+
+.l7 {
+    
+    animation: zoomOutRight;
+     -webkit-animation-delay: 1.4s;
+}
+
+.l8 {
+    
+    animation: zoomOutRight;
+   -webkit-animation-delay: 1.6s;
+}
+
+.l9 {
+    
+    animation: zoomOutRight;
+   -webkit-animation-delay: 1.8s;
+    
+}
+
+.l10 {
+    
+    animation: zoomOutRight;
+      -webkit-animation-delay: 2s;
+}
+
+.l11 {
+    
+    animation: zoomOutRight;
+     -webkit-animation-delay: 2.2s;
+}
+
+.l12 {
+    
+    animation: zoomOutRight;
+   -webkit-animation-delay: 2.4s;
+}
+
+
+/*Right wheel slide animations*/
+
+.r1 {
+    
+    animation: zoomOutLeft;
+    -webkit-animation-delay: .2s;
+    
+}
+
+.r2 {
+    
+    animation: zoomOutLeft;
+    -webkit-animation-delay: .4s;
+    
+}
+
+.r3 {
+    
+    animation: zoomOutLeft;
+     -webkit-animation-delay: .6s;
+    
+}
+
+.r4 {
+    
+    animation: zoomOutLeft;
+    -webkit-animation-delay: .8s;
+    
+}
+
+.r5 {
+    
+    animation: zoomOutLeft;
+   -webkit-animation-delay: 1s;
+    
+}
+
+.r6 {
+    
+    animation: zoomOutLeft;
+      -webkit-animation-delay: 1.2s;
+}
+
+.r7 {
+    
+    animation: zoomOutLeft;
+     -webkit-animation-delay: 1.4s;
+}
+
+.r8 {
+    
+    animation: zoomOutLeft;
+   -webkit-animation-delay: 1.6s;
+}
+
+.r9 {
+    
+    animation: zoomOutLeft;
+   -webkit-animation-delay: 1.8s;
+    
+}
+
+.r10 {
+    
+    animation: zoomOutLeft;
+      -webkit-animation-delay: 2s;
+}
+
+.r11 {
+    
+    animation: zoomOutLeft;
+     -webkit-animation-delay: 2.2s;
+}
+
+.r12 {
+    
+    animation: zoomOutLeft;
+   -webkit-animation-delay: 2.4s;
+}
+
+
+
+
 
 
 
