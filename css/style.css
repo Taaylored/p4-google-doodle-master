@@ -34,9 +34,6 @@
     animation-name: rotateOut;
   animation-iteration-count: 1;
   animation-delay: 4s;
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-    animation-duration: 4s;
-    
     animation-timing-function: ease-in-out;
 }
 
